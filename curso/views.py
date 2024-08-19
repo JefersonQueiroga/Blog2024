@@ -24,6 +24,3 @@ def pagina_noticia(request):
 
 def pagina_sobre(request):
     return render(request, 'curso/sobre.html')
-
-def pagina_teste(request):
-    return render(request, 'curso/teste.html')

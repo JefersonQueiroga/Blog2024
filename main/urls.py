@@ -26,7 +26,6 @@ urlpatterns = [
     path('curso/<int:curso_id>',views.detalhe_curso,name='detalhe_curso'),
     path('noticia/',views.pagina_noticia,name='pagina_noticia'),
     path('sobre/',views.pagina_sobre,name='pagina_sobre'),
-    path('teste/',views.pagina_teste,name='pagina_teste'),
 ]
 
 if settings.DEBUG:
